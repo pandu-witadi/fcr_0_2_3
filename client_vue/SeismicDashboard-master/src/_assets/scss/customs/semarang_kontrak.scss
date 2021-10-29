@@ -1,0 +1,113 @@
+//@font-face {
+//  font-family: "Bookman Old Style";
+//  src: url("../../_assets/fonts/bookman-old-style.ttf") format('truetype');
+//
+//}
+
+.dockontrak {
+  background-color: white;
+  font-family: 'Bookman Old Style';
+  /*height:297mm;*/
+  height: 330mm;
+  width: 210mm;
+}
+
+.surat {
+  //font-family: "Bookman Old Style New Roman", Bookman Old Style, serif;
+  font-family: 'Bookman Old Style';
+  position: relative;
+  background-color: #fff;
+  padding: 0px;
+  border-radius: 0px;
+  width: 210mm;
+  /*height: 297mm;*/
+  height: 315mm;
+  text-align: left;
+  /* box-shadow: 0 0 1.5px 0px #b9b9b9; */
+}
+
+.suratumum {
+  position: relative;
+  /* background-color: #fff; */
+  padding: 0px;
+  border-radius: 0px;
+  width: 210mm;
+  /*height: 297mm;*/
+  height: 237mm;
+  text-align: left;
+  /* box-shadow: 0 0 1.5px 0px #b9b9b9; */
+}
+
+table_title {
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  margin: 1px;
+}
+
+td {
+  font-size: 13px;
+  font-family: "Bookman Old Style";
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.ttd {
+  position: relative;
+  text-align: center;
+}
+
+li {
+  font-size: 13px;
+  font-family: "Bookman Old Style";
+  text-align: justify;
+  text-justify: inter-word;
+}
+.label {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.5em;
+}
+.form {
+  width: 170mm;
+  margin-left: 20mm;
+  margin-right: 20mm;
+  text-align: left;
+}
+.headimg img {
+  width: 80px;
+}
+
+h2 {
+  font-size: 15px;
+  margin: 3px 0;
+}
+
+h3 {
+  font-size: 11px;
+}
+
+.photo {
+  position: absolute;
+  top: 185mm;
+  margin-left: 20mm;
+  /*padding-left: 5mm;*/
+  text-align: left;
+  border: 1px solid gray;
+}
+
+.titlewrite{
+  font-size:14px;
+  font-family: "Bookman Old Style";
+  line-height: 1.0em;
+}
+
+p {
+  font-size: 13px;
+  font-family: "Bookman Old Style";
+}
+
+.kontrak_footer{
+  position: absolute;
+  margin-top: 2mm;
+}

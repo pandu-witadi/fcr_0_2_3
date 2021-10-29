@@ -1,0 +1,231 @@
+.error-msg {
+  color: #D8000C;
+  /*background-color: #FFD2D2;*/
+  padding:5px 10px;
+  vertical-align:middle;
+}
+
+.alert-box {
+  //background-color: #D8000C;
+  //border: 2px solid #FFD2D2;
+  padding:5px 10px;
+  vertical-align:middle;
+  text-align: center;
+  border-radius: 10px;
+
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.user_icon {
+  font-size: 1.2em;
+  margin-left: auto;
+  margin-right: 2px;
+  color: blue;
+}
+.user-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-border-radius: 50%;
+  width: 130px;
+  border-radius: 50%;
+  border: 2px solid #212529;
+  padding: 6px;
+}
+
+.text-avatar {
+  //display: block;
+  font-size: 1.0em;
+  margin-left: auto;
+  margin-right: 10px;
+  color: blue;
+}
+
+.logo-taskbar {
+  font-size: 1.0em;
+  display: block;
+  margin-left: 5px;
+  margin-right: auto;
+  padding: 6px;
+  color: green;
+  font-weight: bold;
+}
+
+.page-title{
+  text-align: center;
+}
+
+.thumbailPhoto{
+  width: 130px;
+  height: 150px;
+}
+
+.thumbailTablePhoto{
+  width: 50px;
+  height: 60px;
+}
+
+.divider{
+  width:5px;
+  height:auto;
+  display:inline-block;
+}
+
+.group-header{
+  margin-bottom: 5px;
+}
+
+.custom-text-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vertical-center {
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+  //line-height : 50px;
+  //width: 100%;
+  //top: 50%;
+  //bottom: 50%;
+  //border: 3px solid green;
+}
+
+//.margin-top-bottom{
+//  margin-left: 4px;
+//  margin-right: 4px;
+//  margin-top: 20px;
+//  margin-bottom: 20px;
+//  //padding-top: 20px;
+//  //padding-bottom: 20px;
+//}
+
+$marker_size : 1.2rem;
+.map-marker3 {
+  background-color: #D8000C;
+  width: $marker_size;
+  height: $marker_size;
+  display: block;
+  border: 1px solid blue;
+  border-radius: ($marker_size / 2.0);
+  left: -($marker_size / 4.0);
+  top: -($marker_size / 4.0);
+  position: relative;
+}
+
+.map-marker1 {
+  background-color: #D8000C;
+  width: 2rem;
+  height: 2rem;
+  display: block;
+  left: -0.65rem;
+  top: -2.0rem;
+  position: relative;
+  border-radius: 2rem 2rem 0;
+  transform: rotate(45deg);
+  border: 1px solid blue;
+}
+.map-marker1::after {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 45%;
+  left: 45%;
+  margin-left: -5px;
+  margin-top: -5px;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+
+
+.map-marker2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-left: 115px;
+
+  border-radius: 50%;
+  border: 8px solid #fff;
+  width: 8px;
+  height: 8px;
+}
+
+.map-marker2::after {
+  position: absolute;
+  content: '';
+  width: 0px;
+  height: 0px;
+  bottom: -30px;
+  left: -6px;
+  border: 10px solid transparent;
+  border-top: 17px solid #fff;
+}
+
+.title-color{
+  color: dodgerblue;
+}
+
+.btn-menu{
+  font-size: x-large;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+//--------------------- USER LOGIN PAGE ------------------------------
+.login_user_card {
+  height: 400px;
+  width: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: whitesmoke;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.login_brand_logo_container {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  top: -60px;
+  border-radius: 50%;
+  background: #60a3bc;
+  padding: 10px;
+  text-align: center;
+}
+.login_brand_logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.login_form_container {
+  margin-top: 40px;
+}
+.login_bottom_container {
+  padding: 0 2rem;
+}
+.login_btn_user {
+  width: 100%;
+  color: white !important;
+}
+
+//----------------------
+.layout-user-style {
+  //height: 40vh;
+}

@@ -1,0 +1,75 @@
+.id_card_front{
+  //background-image: url("../../images/semarang_bg_card_jukir.png");
+  background-color: #fff;
+  padding: 0px;
+  border-radius: 0px;
+  /*background-size: 54mm 85.6mm;*/
+  /*width: 54mm;*/
+  /*height: 85.6mm;*/
+  width: 56.7mm;
+  height: 89.9mm;
+  background-size: 56.7mm 89.9mm;
+  text-align: center;
+  border: 1px solid lightgrey;
+  // margin: 20px;
+  //margin-right: 20px;
+  //margin-bottom: 20px;
+  //margin-bottom: 20px;
+}
+.id_card_back{
+  //background-image: url("../../images/semarang_bg_card_jukir_back.png");
+  background-color: #fff;
+  padding: 0px;
+  border-radius: 0px;
+  /*background-size: 54mm 85.6mm;*/
+  /*width: 54mm;*/
+  /*height: 85.6mm;*/
+  width: 56.7mm;
+  height: 89.9mm;
+  background-size: 56.7mm 89.9mm;
+  text-align: center;
+  border: 1px solid lightgrey;
+  // margin-top: 20px;
+  // margin-left: 20px;
+}
+
+.div-photo{
+  margin-top:10px;
+  margin-bottom:10px;
+  width: 100%;
+  height:36mm
+}
+.img-photo{
+  text-align: center;
+  width:27mm ;
+  height:36mm
+}
+
+/*card title*/
+.card_title{
+  margin-top: 5px;
+}
+.card_title,id_title{
+  font-size:15px;
+  font-weight: bold;
+}
+
+/*card foto*/
+.card_foto{
+  margin-top:10px;
+}
+.id_foto{
+  border: 6px solid red;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:24mm ;
+  height:32mm;
+}
+
+/*table main info card*/
+.table_main_card{
+  border: 0px solid black;
+  margin-top: 15px;
+  margin-left: 10px;
+}

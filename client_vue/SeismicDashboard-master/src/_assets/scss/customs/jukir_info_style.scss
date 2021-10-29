@@ -1,0 +1,46 @@
+
+//.infoImageCenter{
+//  width: 150px;
+//  height: 170px;
+//  display: block;
+//  margin-left: auto;
+//  margin-right: auto;
+//}
+
+.tableJukirInfo{
+  border: 0px solid black;
+  font-size: 1.1em;
+  display: block;
+}
+.tableJukirInfoTd1 {
+  width: 35%;
+  font-weight: normal;
+  text-align: left;
+  vertical-align: top;
+}
+.tableJukirInfoTd2 {
+  width: 5%;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: top;
+}
+.tableJukirInfoTd3 {
+  width: 100%;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: top;
+}
+
+.buttonLarge{
+  /*set center*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 25px;
+  height: 25px;
+  horiz-align: center;
+  /*font-weight: bold;*/
+  /*text-align: left;*/
+  /*vertical-align: top;*/
+}

@@ -1,0 +1,1 @@
+scp -r -P 24 ../dist/* reska@117.54.250.82:/var/www/html/survei/seismic

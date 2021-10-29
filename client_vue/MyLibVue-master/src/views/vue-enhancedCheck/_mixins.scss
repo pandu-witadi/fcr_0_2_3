@@ -1,0 +1,33 @@
+@mixin colorLabel($color, $colorDisabled) {
+  &:checked + label:before {
+    background: $color;
+    color:white;
+  }
+  &:not(:checked) + label:hover {
+    border: 1px solid $color;
+  }
+  &:checked:disabled + label:before {
+    background: $colorDisabled;
+  }
+  &:not(:checked):disabled + label:hover {
+    border: 1px solid $colorDisabled;
+  }
+}
+
+@mixin colorToggle($color, $colorDisabled) {
+  .enhancedToggle-label {
+    background: $color;
+    color:white;
+  }
+  &.enhancedCheck-disabled .enhancedToggle-label {
+    background: $colorDisabled;
+  }
+}
+
+
+@mixin labelBorderRadius($borderRadius) {
+  border-radius: $borderRadius;
+  &:before {
+    border-radius: $borderRadius;
+  }
+}

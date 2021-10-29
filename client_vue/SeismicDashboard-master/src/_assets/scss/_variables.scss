@@ -1,0 +1,26 @@
+// Variable overrides
+
+//$sidebar-color: #BD2733;
+$sidebar-color: #4169E1;
+$sidebar-bg: $sidebar-color; // sidebar bg
+//$navbar-bg:#BD2733; //header color
+$sidebar-form-bg: $sidebar-color;
+
+$sidebar-nav-color: $sidebar-color;
+$sidebar-color: $sidebar-bg;
+$sidebar-header-bg: $sidebar-bg;
+$sidebar-nav-link-bg: $sidebar-bg; //item bg
+$sidebar-nav-dropdown-bg: $sidebar-bg;
+
+$sidebar-nav-link-icon-color: #FFFFFF;
+$sidebar-nav-link-hover-bg: lighten($sidebar-bg, 25%);
+
+$sidebar-nav-link-active-bg: lighten($sidebar-bg, 10%);
+$sidebar-nav-link-active-icon-color:  #FFFFFF;
+
+$sidebar-nav-link-disabled-bg: $sidebar-bg;
+
+$sidebar-minimizer-bg: $sidebar-bg;
+$sidebar-minimizer-hover-bg: $sidebar-nav-link-hover-bg;
+
+
